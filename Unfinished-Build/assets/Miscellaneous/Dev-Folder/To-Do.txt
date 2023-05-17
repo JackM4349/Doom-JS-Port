@@ -1,0 +1,21 @@
+DONE -- Beginning: Setting up the basic structure of the game, and basically making sure all the basic files are connected to one another.
+
+Game State: Define the game state, including variables to represent the player's position, enemy positions, health, score, and any other relevant information.
+
+Rendering: Create the rendering logic to draw the game world on the canvas. This involves rendering the player, enemies, walls, and other objects based on their positions and properties. You can start with simple shapes or use sprites for more detailed graphics.
+
+Player Movement: Implement the player's movement controls using keyboard input. Capture key presses and update the player's position accordingly. You may also need to handle collision detection with walls and other objects.
+
+Enemy Behavior: Design the behavior of enemies, such as their movement patterns and interaction with the player. You can create simple enemy AI that moves towards the player or follows predefined paths.
+
+Collision Detection: Implement collision detection to handle interactions between the player, enemies, and the game environment. Detect collisions between objects and react accordingly, such as reducing the player's health or removing defeated enemies.
+
+Weapons and Shooting: Introduce weapons and shooting mechanics. Define the player's weapon types, ammunition, and how shooting affects the game world. Handle projectile movement and collisions with enemies.
+
+Level Design: Create game levels or maps using arrays or data structures to represent the layout of walls, floors, and other objects. Generate or load levels from external files to provide variety and challenge.
+
+User Interface: Design and implement a user interface for displaying game information, such as health, score, and ammo. Include menus, game over screens, and any other necessary UI elements.
+
+Audio: Add sound effects and background music to enhance the gaming experience. Use HTML5 audio elements or explore libraries like Howler.js to handle audio playback.
+
+Testing and Refinement: Continuously test and debug your game, addressing any issues or bugs you encounter. Seek feedback from others to improve gameplay, controls, and overall user experience.
